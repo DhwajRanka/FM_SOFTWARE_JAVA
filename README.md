@@ -32,10 +32,10 @@ If it is equal,
 Print it is palindrome
 Else print it is not palindrome.
 
-###Q9
+### Q9
 
 
-###Q10
+### Q10
 Request three Strings from the user. Compare Strings 1 and 2 first. If 1 is more than 2, compare it to 2 and 3, and if so, lap 1 is the fastest. If 3, however, 3 is greater than 2, lap 2 is the fastest. Compare 3 to 1 if 1 is not larger than 2 in that case. The quickest lap is the first if 3 is greater than 1, while the fastest lap is the third if 1 is greater than 3.
 
 ### Q11
