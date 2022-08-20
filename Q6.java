@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Q7 {
+public class Q6 {
     public static void main(String[] args){
         int input, input1, input2, result;
         double trig_result;
