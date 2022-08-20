@@ -66,8 +66,36 @@ Check if there is a divisor of the number in the range of [two, number] because 
 There is no number that can be completely divided by more than half of the number itself. We need to loop through two to the number itself divided by two (number/2).
 If any divisor is found, then the number is not prime; otherwise, the given number is prime.
 
-###Q18 Regex
+### Q18_Regex
+Create an IP address regular expression, then check to see if the pattern matches the user's input using the matches() method. If it does, the output message will be printed.
 
+### Q18 Java Big Integer
+BigInteger class is used for the mathematical operation which involves very big integer calculations that are outside the limit of all available primitive data types.
+Make two Strings into objects of the BigInteger class to transform them into Big Integers. Two more BigIntegers, "add" and "mul," to be created and initialised to contain the addition and multiplication values, respectively. Use the BigInteger class's add() and multiply() methods to add and multiply, then report the results.
+
+### Q18 Java Big Decimal
+We duplicate the largest index and store it in a new BigDecimal (initially assumed to be 0th index). The next step is to compare this bigdecimal to the subsequent array values. Update both the huge index's value and the number itself if we discover a larger number. The elements of the current and huge string in the string array s are then switched. The sorted array is then printed.
+
+### Q18 Java Anagram
+We can rearrange the characters of each string by sorting their characters, which will produce two normalized arrays of characters.
+
+If two strings are anagrams, their normalized forms should be the same.
+
+In Java, we can first convert the two strings into char[] arrays. Then we can sort these two arrays and check for equality
+
+### Q18 Valid username Regular Expression
+The regular expression is written in the class UsernameValidator. The first word may start with a capital or tiny letter [a-zA-Z]. Any letter, a number, or underscore [a-zA-Z0-9_] could come after the initial characters. The length ranges from 8 to 30 characters, making 7,29.
+
+### Q18 Pattern Syntax Checker
+we can use regex to find pattern in syntax and with  using well defined syntax we can use the Pattern.compile() method and if we catch an exception we set the flag to 1. If the flag is 1 then it is an invalid string and if it remains 0 then it is a valid string. 
+
+### Q18 Substring Comparison
+Using String.compareTo() :
+It compares and returns the following values as follows:
+if (string1 > string2) it returns a positive value.
+if both the strings are equal lexicographically
+i.e.(string1 == string2) it returns 0.
+if (string1 < string2) it returns a negative value.
 
 
 
